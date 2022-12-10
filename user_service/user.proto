@@ -13,9 +13,10 @@ message User {
     string password = 6;
     string phone_number = 7;
     string image_url = 8;
-    string created_at = 9;
-    string updated_at = 10;
-    string deleted_at = 11;
+    string type = 9;
+    string created_at = 10;
+    string updated_at = 11;
+    string deleted_at = 12;
 }
 
 message IdRequest {
